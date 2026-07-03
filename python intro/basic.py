@@ -195,9 +195,68 @@
 # print(f"Student Course: {Course}")
 # print(f"Student Dream Job: {Dream_job}")
 # print("-----------End of Student Profile-----------")
-#write a program to create a function to print your name and age.
-def name_and_age(name, age):
-    print(f"Hello, Myself {name} and I am {age} years old.")
-name=input("Enter your name: ")
-age=int(input("Enter your age: "))
-name_and_age(name, age)
+# #write a program to create a function to print your name and age.
+# def name_and_age(name, age):
+#     print(f"Hello, Myself {name} and I am {age} years old.")
+# name=input("Enter your name: ")
+# age=int(input("Enter your age: "))
+# name_and_age(name, age)
+# #write a program to create a function that greets the user with a message.
+# def greet_user(name):
+#     print(f"hello, {name}! Welcome to python programming.")
+# name=input("Enter your name:")
+# greet_user(name)
+# #write a program to create a function to add  two numbers and return the result.
+# def add(num1, num2):
+#     return num1 + num2
+# num1=int(input("Enter the first number:\n"))
+# num2=int(input("Enter the second number:\n"))
+# result= add(num1, num2)
+# print(f"The sum of {num1} and {num2} is: {result}")
+# #write a program to create a function to find square of a number and return the result.
+# def square(num):
+#     return num**2
+# num=int(input("Enter a number:\n"))
+# result=square(num)
+# print(f"The Square of {num} is: {result}")
+# #write a program to create a function to check whether a given number is even or odd and return the result.
+# def check_even_odd(num):
+#     if num % 2 == 0:
+#         return "Even"
+#     else:
+#         return "Odd"
+
+# num = int(input("Enter a number: \n"))
+# result = check_even_odd(num)
+# print(f"The number is: {result}")
+# #write a program to create a function to find area of rectangle and return the result.
+# def aor(length, breadth):
+#     return length * breadth
+# length=float(input("enter a length:"))
+# breadth=float(input("enter a breadth:"))
+# result= aor(length, breadth)
+# print(f"The Area of Rectangle: {result}")
+# #write a porgram to create a function to find largest of two numbers.
+# def largest(num1,num2):
+#     if (num1>num2):
+#         return num1
+#     else:
+#         return num2
+# num1=int(input("enter a number1:"))
+# num2=int(input("Enter a number2:"))
+# result= largest(num1,num2)
+# if (result==num1):
+#     print(f"{num1} is greater than {num2}")
+# else:
+#     print(f"{num2} is greater than {num1}")
+# #write a program to create a function to create student report card.
+# def src(name, age, marks):
+#     print("-------------------student_report_card-----------------------")
+#     print(f"name: {name}")
+#     print(f"Age: {age}")
+#     print(f"marks: {marks}")
+#     print("----------------------End of report--------------------------")
+# name=input("Enter your name:")
+# age=int(input("enter your age:"))
+# marks=int(input("enter your marks: "))
+# src(name, age, marks)
